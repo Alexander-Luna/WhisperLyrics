@@ -1,0 +1,33 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container {
+  width: 500px;
+  text-align: center;
+}
+
+#lyrics {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.6;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.lyric-line {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.lyric-line.active {
+  opacity: 1;
+  color: #1db954;
+  font-weight: bold;
+}
